@@ -75,7 +75,7 @@ inquirer.prompt(
     usage,
     contribution
 })=>{
-    // template to be used
+    // template to be used when we generate a readme file 
     const template = `# ${title}
     #Installation
     ${installation}
