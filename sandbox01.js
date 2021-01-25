@@ -98,3 +98,15 @@ inquirer.prompt(
     createNewFile(title, template);
 }
 );
+
+// / Creatng createNewFile function
+function createNewFile(fileName, data) {
+
+    // fs
+    fs.writeFile(`./${fileName.toLowerCase().split(' ').join(' ')}.nd`, data,(err) => {
+        if(err) {
+            console.log(err)
+        }
+        console.log('Your ReadMe has been generated');
+    });
+} 
