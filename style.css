@@ -1,0 +1,21 @@
+/* .card {
+    max-width: 350px;
+    border : 1px solid red;
+    margin : 15px;
+    text-align :center;
+    position: block;
+} */
+
+body {
+    text-align: center;
+}
+
+
+  .card {
+    border: 1px solid black;
+    float: left;
+    margin: 15px;
+    padding: 10px 3px;
+  
+  }
+  

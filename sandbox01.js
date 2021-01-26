@@ -62,6 +62,12 @@ inquirer.prompt(
             name:'email',
             validate: (value) => {if (value) {return (true)}else {return 'I need a value to continue'}}
         },
+        {
+            type : 'input',
+            message : 'LinkedIn',
+            name:'linkedin',
+            validate: (value) => {if (value) {return (true)}else {return 'I need a value to continue'}}
+        },
     ]
 ).then(({
     title,
